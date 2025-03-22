@@ -1,28 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="58px" height="61px" viewBox="0 0 58 61" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>logo</title>
-    <g id="Designs" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="assets" transform="translate(-432.000000, -742.000000)">
-            <g id="Group-24" transform="translate(211.000000, 160.000000)">
-                <g id="logo" transform="translate(221.000000, 582.000000)">
-                    <g id="Group-23" fill="#000000">
-                        <circle id="Oval-Copy-47" cx="13" cy="13" r="13"></circle>
-                        <circle id="Oval-Copy-51" cx="45" cy="13" r="13"></circle>
-                        <circle id="Oval-Copy-53" cx="13" cy="45" r="13"></circle>
-                        <circle id="Oval-Copy-52" cx="45" cy="45" r="13"></circle>
-                    </g>
-                    <g id="Group-23-Copy" transform="translate(0.000000, 3.000000)" fill="#000000">
-                        <circle id="Oval-Copy-47" cx="13" cy="13" r="13"></circle>
-                        <circle id="Oval-Copy-51" cx="45" cy="13" r="13"></circle>
-                        <circle id="Oval-Copy-53" cx="13" cy="45" r="13"></circle>
-                        <circle id="Oval-Copy-52" cx="45" cy="45" r="13"></circle>
-                    </g>
-                    <circle id="Oval-Copy-11" fill="#FD6687" cx="13" cy="13" r="10"></circle>
-                    <circle id="Oval-Copy-25" fill="#FD6687" cx="45" cy="45" r="10"></circle>
-                    <circle id="Oval-Copy-23" fill="#FFCE67" cx="45" cy="13" r="10"></circle>
-                    <circle id="Oval-Copy-24" fill="#FFCE67" cx="13" cy="45" r="10"></circle>
-                </g>
-            </g>
+<svg width="120px" height="125px" viewBox="0 0 120 125" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Updated Logo</title>
+    <g id="logo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="circles" transform="translate(10, 10)">
+            <circle id="circle-1" cx="25" cy="25" r="20" fill="#1E3A8A"/>
+            <circle id="circle-2" cx="85" cy="25" r="20" fill="#1E3A8A"/>
+            <circle id="circle-3" cx="25" cy="85" r="20" fill="#1E3A8A"/>
+            <circle id="circle-4" cx="85" cy="85" r="20" fill="#1E3A8A"/>
+            
+            <circle id="circle-5" cx="25" cy="25" r="12" fill="#14B8A6"/>
+            <circle id="circle-6" cx="85" cy="85" r="12" fill="#14B8A6"/>
+            <circle id="circle-7" cx="85" cy="25" r="12" fill="#F97316"/>
+            <circle id="circle-8" cx="25" cy="85" r="12" fill="#F97316"/>
         </g>
     </g>
 </svg>
