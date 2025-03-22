@@ -69,7 +69,7 @@ function ScoreBackground() {
           className="relative z-[21] -mt-16 mobile:-mt-8"
         >
           <div
-            className={`flex w-[28.5rem] flex-col items-center rounded-[2rem] border-[3px] border-black bg-white py-7 font-bold uppercase shadow-black-sh ${
+            className={`flex w-[28.5rem] flex-col items-center rounded-[2rem] border-[3px] border-black bg-green-500 py-7 font-bold uppercase shadow-black-sh ${
               winner === "tie" ? "gap-6" : ""
             }`}
           >
@@ -80,8 +80,17 @@ function ScoreBackground() {
             >
               {finalWinner}{" "}
             </p>
-            {winner !== "tie" && <p className="text-[5.6rem]">wins</p>}
-            <Button onClick={handleRestartGame}>Play Again</Button>
+            {winner !== "tie" && (
+              <p className="text-[5.6rem]">
+                {winner === "player" ? "win" : "wins"}
+              </p>
+            )}
+            <button
+              onClick={handleRestartGame}
+              className="mt-4 rounded-full text-2xl bg-black px-6 py-3 text-white transition-transform duration-300 ease-in-out hover:scale-110"
+            >
+              Play Again
+            </button>
           </div>
         </motion.div>
       )}
