@@ -10,7 +10,7 @@ function ComputerGameBoardBox() {
     "
     >
       <ScoreBoard
-        img="./player-one.svg"
+        img="./player.svg"
         score={playerScore}
         player="You"
         from="left"
@@ -19,7 +19,7 @@ function ComputerGameBoardBox() {
       <ComputerGameBoard />
 
       <ScoreBoard
-        img="./cpu.svg"
+        img="./ai.svg"
         score={computerScore}
         player="ai"
         from="right"
