@@ -46,7 +46,7 @@ function ScoreBackground() {
         >
           <img src={currentMove} alt="current player turn" />
           <div className="absolute left-1/2 top-[34%] -translate-x-1/2 -translate-y-1/2 text-center">
-            <p className="mobileSmall:text-[1.4rem] text-[1.6rem] font-bold uppercase">
+            <p className="text-[1.6rem] font-bold uppercase mobileSmall:text-[1.4rem]">
               {playerTurn} Turn
             </p>
             <p className="text-[5.6rem] font-bold">
@@ -66,7 +66,7 @@ function ScoreBackground() {
           className="relative z-[21] -mt-16 mobile:-mt-8"
         >
           <div
-            className={`flex w-[28.5rem] flex-col items-center rounded-[2rem] border-[3px] border-black bg-white py-7 font-bold uppercase shadow-black-sh ${
+            className={`flex w-[28.5rem] flex-col items-center rounded-[2rem] border-[3px] border-black bg-green-500 py-7 font-bold uppercase shadow-black-sh ${
               winner === "tie" ? "gap-6" : ""
             }`}
           >
@@ -82,7 +82,12 @@ function ScoreBackground() {
                 {winner === "player" ? "win" : "wins"}
               </p>
             )}
-            <Button onClick={handleRestartGame}>Play Again</Button>
+            <button
+              onClick={handleRestartGame}
+              className="mt-4 rounded-full text-2xl bg-black px-6 py-3 text-white transition-transform duration-300 ease-in-out hover:scale-110"
+            >
+              Play Again
+            </button>
           </div>
         </motion.div>
       )}
