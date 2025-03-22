@@ -11,7 +11,7 @@ function Rules() {
       transition={{ duration: 0.5, ease: "easeInOut" }}
     >
       <div className="relative max-w-[50rem] space-y-12 rounded-[4rem] border-[3px] border-black bg-white p-12 shadow-black-sh">
-        <h2 className=" text-center text-[5.6rem] font-bold uppercase">
+        <h2 className=" text-center text-[5.6rem] font-bold uppercase underline">
           Rules
         </h2>
 
