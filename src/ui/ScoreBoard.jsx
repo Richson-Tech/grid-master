@@ -16,7 +16,7 @@ function ScoreBoard({ img, score, player, from }) {
       <img
         src={img}
         alt="player"
-        className={`-mt-12 mb-6 desktop:mb-0 desktop:mt-0 ${
+        className={`-mt-12 mb-6 desktop:mb-0 desktop:mt-0 w-30 ${
           player === "Player 1" || player === "You"
             ? "desktop:-ml-16"
             : "desktop:-mr-16"
