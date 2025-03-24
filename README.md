@@ -1,6 +1,6 @@
-# Frontend Mentor - Connect Four game solution
 
-This is a solution to the [Connect Four game challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/connect-four-game-6G8QVH923s). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+
+
 
 ## Table of contents
 
@@ -24,12 +24,6 @@ Users should be able to:
 - **Bonus**: See the discs animate into their position when a move is made
 - **Bonus**: Play against the computer
 
-### Links
-
-- Solution URL: [https://github.com/Olatoyan/connect-four-game](https://github.com/Olatoyan/connect-four-game)
-- Live Site URL: [https://toyan-connect-four.netlify.app/](https://toyan-connect-four.netlify.app/)
-
-## My process
 
 ### Built with
 
@@ -41,7 +35,4 @@ Users should be able to:
 - [TailwindCSS](https://tailwindcss.com/) - For styles
 - [Framer Motion](https://www.framer.com/motion/) - For Animations
 
-## Author
 
-- Frontend Mentor - [@olatoyan](https://www.frontendmentor.io/profile/olatoyan)
-- Twitter - [@Toyan](https://www.twitter.com/_annonnymouss_)
